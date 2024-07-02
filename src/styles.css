@@ -3,6 +3,7 @@
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 body{
     background-color: #416165;
@@ -57,11 +58,34 @@ header {
   .aboutMe{
     color: #D0CDD7;
     text-align: center;
-    margin-top: 25px;
+    height: 50vh;
+    align-content: center;
   }
   .aboutMe h2 {
-    font-size: 34px; 
     margin-bottom: 10px; 
+  }
+  .about-name{
+    align-content: center;
+    align-items: center;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+  }
+  .about-text{
+    align-content: center;
+    align-items: center;
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+  }
+  .about-para{
+    align-content: center;
+    align-items: center;
+    font-size: 1vw;
+    letter-spacing: 2.0px;
+    margin-top: 20px;
+    margin-right: 25vh;
+    margin-left: 25vh;
   }
 
   .portfolio{
