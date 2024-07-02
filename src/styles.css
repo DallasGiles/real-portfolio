@@ -117,17 +117,17 @@ header {
   }
   
   .container {
-    flex: 0 1 700px;
+    flex: .6 1 600px;
     margin: auto;
     padding: 10px;
+    margin-top: 7vh;
   }
   
   .screen {
     position: relative;
     background: #D0CDD7;
     border-radius: 15px;
-    margin-bottom: 300px;
-    
+    margin-bottom: 200px;  
   }
   
   .screen:after {
@@ -191,6 +191,7 @@ header {
   
   .screen-body {
     display: flex;
+    height: 500px;
   }
   
   .screen-body-item {
@@ -228,6 +229,12 @@ header {
     color: #888;
   }
   
+  .name-title{
+    margin-bottom: 30px;
+    font-size: large;
+    color: #416165;
+  }
+
   .app-form-group {
     margin-bottom: 15px;
   }
