@@ -55,6 +55,16 @@ header {
     color: #D9DBF1;
   }
 
+.coloumn-left{
+  float: inline-start;
+  width: 60%;
+}
+
+.coloumn-right{
+  float: inline-end;
+  width: 40%;
+  
+}
   .aboutMe{
     color: #D0CDD7;
     text-align: center;
@@ -62,7 +72,8 @@ header {
     align-content: center;
   }
   .aboutMe h2 {
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
+    margin-top: 15vh;
   }
   .about-name{
     align-content: center;
@@ -83,10 +94,13 @@ header {
     align-items: center;
     font-size: 1vw;
     letter-spacing: 2.0px;
+    word-spacing: 4px;
     margin-top: 20px;
     margin-right: 25vh;
     margin-left: 25vh;
   }
+
+
 
   .portfolio{
     color: #D0CDD7;
@@ -97,6 +111,49 @@ header {
     font-size: 34px; 
     margin-bottom: 10px; 
   }
+  /* src/App.css */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
 
   .resume{
     color: #D0CDD7;
@@ -215,9 +272,9 @@ header {
     content: '';
     display: block;
     position: absolute;
-    left: 0;
+    left: 48px;
     bottom: -10px;
-    width: 25px;
+    width: 170px;
     height: 4px;
     background: #ea1d6f;
   }
@@ -275,6 +332,9 @@ header {
   .app-form-button:hover {
     color: #b9134f;
   }
+  .img-logo{
+    width: 50px;
+  }
 
   @media screen and (max-width: 520px) {
     .screen-body {
@@ -307,3 +367,45 @@ header {
       padding: 0;
     }
   }
+/* src/App.css */
+.resume {
+  padding: 20px;
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.resume a {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume a:hover {
+  background-color: #0056b3;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.resume li {
+  font-size: 1.2em;
+  margin: 5px;
+  background: #0B3948;
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -16,11 +16,7 @@ const Navigation = () => {
             Portfolio
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/contact" activeClassName="active">
-            Contact
-          </NavLink>
-        </li>
+        
         <li>
           <NavLink to="/resume" activeClassName="active">
             Resume
