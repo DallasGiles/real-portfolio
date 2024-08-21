@@ -38,7 +38,9 @@ header {
   footer a:hover {
     color: #D9DBF1; 
   }
-
+  .picture{
+    width: 200px;
+  }
   nav ul {
     list-style: none;
     display: flex;

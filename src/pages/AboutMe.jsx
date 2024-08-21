@@ -33,6 +33,7 @@ const AboutMe = () => {
     <section className="aboutMe">
       <div className="coloumn-left">
         <h2 className="about-name">Dallas Giles</h2>
+        <img className='picture' src='src/images/portfolio-shot.jpg'></img>
         <p className="about-text">Full stack web developer</p>
         <p className="about-para">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam omnis
